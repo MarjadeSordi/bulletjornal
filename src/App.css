@@ -1,0 +1,10 @@
+
+
+.App{
+    background-image:
+    linear-gradient(rgba(243, 241, 241, 0.7), rgba(0,0,0,0.4)),
+    url('fundo3.jpg');
+    background-repeat: none;
+    background-size: cover;
+    
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Oswald&display=swap');
+
+.listadetarefas{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.Titulolista {
+    font-size: 40px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Subtitulolista{
+    font-size: 24px;
+    font-family: 'Josefin Slab', serif;
+}
+
+.Data {
+    text-align: center;
+    font-family: 'Josefin Slab', serif;  
+    margin-bottom: 30px;
+}
+
+.LinhaTarefa {
+    border-radius: 8px;
+    border: 2px solid #2222;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    
+}
+
+.BotaoAdiciona {
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #2222; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    background-color: #EEE8AA;
+}
+
+.BotaoAdiciona:hover{
+    background-color:#DAA520;
+}
+
+.ListaOutput{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    list-style-type: circle;
+    background-color: rgba(243, 241, 241, 0.514);
+
+}
+
+.BotaoDelete {
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    background-color:#4682B4 ;
+    color:	#B0C4DE ;
+    border:none;
+    
+}
+
+.BotaoDelete:hover {
+    background-color:	#00BFFF;
+}
